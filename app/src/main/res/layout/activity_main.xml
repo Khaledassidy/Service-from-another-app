@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/diplay_randomnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:textSize="30sp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/bind_servies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bind Servies"
+        android:textSize="20sp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/unbind_servies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UNBind Servies"
+        android:textSize="20sp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/display_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dispaly Random Number"
+        android:textSize="20sp">
+
+    </Button>
+
+</LinearLayout>
